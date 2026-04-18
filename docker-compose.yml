@@ -6,7 +6,7 @@ services:
       - "8000:8000"
     # Persist users.json across container recreations
     volumes:
-      - app_data:/app/data
+      - app_data:/app/app/data
     restart: unless-stopped
 
 volumes:
