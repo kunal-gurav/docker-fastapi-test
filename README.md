@@ -33,12 +33,6 @@ The goal was to containerize a basic FastAPI application and ensure it can be ru
 │   └── users.json
 ├── docker-compose.yml
 ├── Dockerfile
-├── images/
-│   ├── docker compse down and up.png
-│   ├── fast api.png
-│   ├── hello message.png
-│   ├── user data after compose up and down.png
-│   └── user data.png
 └── requirements.txt
 
 ````
@@ -82,29 +76,23 @@ The application provides the following endpoints:
 
 ---
 
-## 📸 Screenshots
-
 To demonstrate the application's functionality and persistence, here are screenshots showing key steps.
 
 ### Initial API Access (`/docs`)
 This shows the interactive API documentation provided by FastAPI.
 
-![FastAPI Interactive Documentation](images/fast%20api.png)
 
 ### The "Hello" Message Endpoint
 A successful response from the root endpoint.
 
-![Hello Message](images/hello%20message.png)
 
 ### Adding a User
 A screenshot showing data being posted to the `/users` endpoint.
 
-![User Data](images/user%20data.png)
 
 ### Data Persistence After Restart
 This screenshot proves that the user data is correctly stored and persists even after the container is shut down and brought back up, fulfilling a key project requirement.
 
-![User Data After Compose Restart](images/user%20data%20after%20compose%20up%20and%20down.png)
 
 ---
 
@@ -120,7 +108,3 @@ This screenshot proves that the user data is correctly stored and persists even 
 
 _This project was completed as part of a machine test for Nimap Infotech._
 ````
-![FastAPI Interactive Documentation](images/fast api.png)
-![Hello Message](images/hello message.png)
-![User Data](images/user data.png)
-![User Data After Compose Restart](images/user data after compose up and down.png)
